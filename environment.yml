@@ -1,0 +1,23 @@
+name: qatar2022
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.20
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn=1.2.*
+  - lightgbm
+  - xgboost
+  - catboost
+  - pip:
+      - mplsoccer
+      - kloppy
+      - lime
+      - statsbombpy
+      - black
+      - ruff
+      - pytest
+      - nbval
+      - pre-commit
